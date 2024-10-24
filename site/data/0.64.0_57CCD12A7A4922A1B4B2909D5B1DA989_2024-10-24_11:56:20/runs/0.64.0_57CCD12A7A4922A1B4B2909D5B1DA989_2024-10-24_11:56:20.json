@@ -1,0 +1,1742 @@
+{
+  "total_time": {
+    "secs": 3,
+    "nanos": 21133591
+  },
+  "system_specs": {
+    "cpus": [
+      {
+        "name": "cpu0",
+        "vendor_id": "AuthenticAMD",
+        "brand": "AMD EPYC 7763 64-Core Processor",
+        "frequency": 2636
+      },
+      {
+        "name": "cpu1",
+        "vendor_id": "AuthenticAMD",
+        "brand": "AMD EPYC 7763 64-Core Processor",
+        "frequency": 2636
+      },
+      {
+        "name": "cpu2",
+        "vendor_id": "AuthenticAMD",
+        "brand": "AMD EPYC 7763 64-Core Processor",
+        "frequency": 2636
+      },
+      {
+        "name": "cpu3",
+        "vendor_id": "AuthenticAMD",
+        "brand": "AMD EPYC 7763 64-Core Processor",
+        "frequency": 2636
+      }
+    ],
+    "physical_core_count": 2,
+    "total_memory": 16757342208,
+    "free_memory": 10470977536,
+    "available_memory": 15592919040,
+    "used_memory": 1164423168,
+    "total_swap": 4294963200,
+    "free_swap": 4294963200,
+    "used_swap": 0,
+    "uptime": 1034,
+    "boot_time": 1729769946,
+    "load_average": {
+      "one": 3.7,
+      "five": 4.01,
+      "fifteen": 2.65
+    },
+    "name": "Ubuntu",
+    "kernel_version": "6.5.0-1025-azure",
+    "os_version": "22.04",
+    "long_os_version": "Linux 22.04 Ubuntu",
+    "distribution_id": "ubuntu",
+    "host_name": "fv-az1242-663"
+  },
+  "benchmarks": [
+    {
+      "name": "hashing",
+      "path": "/home/runner/work/dynotest/dynotest/test/src/sdk-harness/test_projects/hashing",
+      "start_time": {
+        "secs": 0,
+        "nanos": 15079
+      },
+      "end_time": {
+        "secs": 3,
+        "nanos": 21046028
+      },
+      "phases": [
+        {
+          "name": "core compile to ast",
+          "start_time": {
+            "secs": 0,
+            "nanos": 96212189
+          },
+          "end_time": {
+            "secs": 0,
+            "nanos": 587833756
+          }
+        },
+        {
+          "name": "core parse the program to a concrete syntax tree (CST)",
+          "start_time": {
+            "secs": 0,
+            "nanos": 98911929
+          },
+          "end_time": {
+            "secs": 0,
+            "nanos": 149107544
+          }
+        },
+        {
+          "name": "core parse the concrete syntax tree (CST) to a typed AST",
+          "start_time": {
+            "secs": 0,
+            "nanos": 149109618
+          },
+          "end_time": {
+            "secs": 0,
+            "nanos": 584638012
+          }
+        },
+        {
+          "name": "core compile ast to asm",
+          "start_time": {
+            "secs": 0,
+            "nanos": 587835019
+          },
+          "end_time": {
+            "secs": 0,
+            "nanos": 589071071
+          }
+        },
+        {
+          "name": "core generate JSON ABI program",
+          "start_time": {
+            "secs": 0,
+            "nanos": 589072524
+          },
+          "end_time": {
+            "secs": 0,
+            "nanos": 590334004
+          }
+        },
+        {
+          "name": "core compile asm to bytecode",
+          "start_time": {
+            "secs": 0,
+            "nanos": 590335066
+          },
+          "end_time": {
+            "secs": 0,
+            "nanos": 591538278
+          }
+        },
+        {
+          "name": "std compile to ast",
+          "start_time": {
+            "secs": 0,
+            "nanos": 593425354
+          },
+          "end_time": {
+            "secs": 2,
+            "nanos": 457275171
+          }
+        },
+        {
+          "name": "std parse the program to a concrete syntax tree (CST)",
+          "start_time": {
+            "secs": 0,
+            "nanos": 594793944
+          },
+          "end_time": {
+            "secs": 0,
+            "nanos": 646376604
+          }
+        },
+        {
+          "name": "std parse the concrete syntax tree (CST) to a typed AST",
+          "start_time": {
+            "secs": 0,
+            "nanos": 646377966
+          },
+          "end_time": {
+            "secs": 2,
+            "nanos": 452452014
+          }
+        },
+        {
+          "name": "std compile ast to asm",
+          "start_time": {
+            "secs": 2,
+            "nanos": 457276253
+          },
+          "end_time": {
+            "secs": 2,
+            "nanos": 459022376
+          }
+        },
+        {
+          "name": "std generate JSON ABI program",
+          "start_time": {
+            "secs": 2,
+            "nanos": 459023237
+          },
+          "end_time": {
+            "secs": 2,
+            "nanos": 460041405
+          }
+        },
+        {
+          "name": "std compile asm to bytecode",
+          "start_time": {
+            "secs": 2,
+            "nanos": 460042156
+          },
+          "end_time": {
+            "secs": 2,
+            "nanos": 461041257
+          }
+        },
+        {
+          "name": "hashing compile to ast",
+          "start_time": {
+            "secs": 2,
+            "nanos": 465229812
+          },
+          "end_time": {
+            "secs": 2,
+            "nanos": 532659718
+          }
+        },
+        {
+          "name": "hashing parse the program to a concrete syntax tree (CST)",
+          "start_time": {
+            "secs": 2,
+            "nanos": 466102678
+          },
+          "end_time": {
+            "secs": 2,
+            "nanos": 467835547
+          }
+        },
+        {
+          "name": "hashing parse the concrete syntax tree (CST) to a typed AST",
+          "start_time": {
+            "secs": 2,
+            "nanos": 467836388
+          },
+          "end_time": {
+            "secs": 2,
+            "nanos": 532435581
+          }
+        },
+        {
+          "name": "hashing compile ast to asm",
+          "start_time": {
+            "secs": 2,
+            "nanos": 532660811
+          },
+          "end_time": {
+            "secs": 2,
+            "nanos": 606781313
+          }
+        },
+        {
+          "name": "hashing generate JSON ABI program",
+          "start_time": {
+            "secs": 2,
+            "nanos": 606794668
+          },
+          "end_time": {
+            "secs": 2,
+            "nanos": 608980801
+          }
+        },
+        {
+          "name": "hashing compile asm to bytecode",
+          "start_time": {
+            "secs": 2,
+            "nanos": 608994417
+          },
+          "end_time": {
+            "secs": 2,
+            "nanos": 613246619
+          }
+        }
+      ],
+      "frames": [
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 895366
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 627960
+          },
+          "cpu_usage": 0.0,
+          "memory_usage": 14983168,
+          "virtual_memory_usage": 314343424,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 100963190
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 100695784
+          },
+          "cpu_usage": 0.0021783803,
+          "memory_usage": 30621696,
+          "virtual_memory_usage": 325066752,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 201056099
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 200788693
+          },
+          "cpu_usage": 12.5,
+          "memory_usage": 140054528,
+          "virtual_memory_usage": 432418816,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 301129463
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 300862057
+          },
+          "cpu_usage": 12.5,
+          "memory_usage": 151588864,
+          "virtual_memory_usage": 444059648,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 401197190
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 400929784
+          },
+          "cpu_usage": 11.111112,
+          "memory_usage": 170463232,
+          "virtual_memory_usage": 463126528,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 501265008
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 500997602
+          },
+          "cpu_usage": 12.345679,
+          "memory_usage": 196153344,
+          "virtual_memory_usage": 488652800,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 601332315
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 601064909
+          },
+          "cpu_usage": 12.345679,
+          "memory_usage": 212910080,
+          "virtual_memory_usage": 504156160,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 701402368
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 701134962
+          },
+          "cpu_usage": 11.111112,
+          "memory_usage": 247644160,
+          "virtual_memory_usage": 538976256,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 801479904
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 801212498
+          },
+          "cpu_usage": 12.195122,
+          "memory_usage": 289980416,
+          "virtual_memory_usage": 581128192,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 901550066
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 901282660
+          },
+          "cpu_usage": 12.195122,
+          "memory_usage": 325632000,
+          "virtual_memory_usage": 616779776,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 1619107
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 1351701
+          },
+          "cpu_usage": 12.5,
+          "memory_usage": 373211136,
+          "virtual_memory_usage": 664526848,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 101705464
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 101438058
+          },
+          "cpu_usage": 12.5,
+          "memory_usage": 436125696,
+          "virtual_memory_usage": 727199744,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 201791215
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 201523809
+          },
+          "cpu_usage": 11.25,
+          "memory_usage": 499695616,
+          "virtual_memory_usage": 791302144,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 301865411
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 301598005
+          },
+          "cpu_usage": 12.5,
+          "memory_usage": 565755904,
+          "virtual_memory_usage": 857235456,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 401937897
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 401670491
+          },
+          "cpu_usage": 12.345679,
+          "memory_usage": 626311168,
+          "virtual_memory_usage": 917848064,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 502007078
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 501739672
+          },
+          "cpu_usage": 12.345679,
+          "memory_usage": 684638208,
+          "virtual_memory_usage": 976306176,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 602079164
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 601811758
+          },
+          "cpu_usage": 11.25,
+          "memory_usage": 744275968,
+          "virtual_memory_usage": 1035681792,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 702149687
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 701882281
+          },
+          "cpu_usage": 13.75,
+          "memory_usage": 801685504,
+          "virtual_memory_usage": 1093304320,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 802220982
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 801953576
+          },
+          "cpu_usage": 10.97561,
+          "memory_usage": 854245376,
+          "virtual_memory_usage": 1146630144,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 902291855
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 902024449
+          },
+          "cpu_usage": 10.97561,
+          "memory_usage": 912396288,
+          "virtual_memory_usage": 1204654080,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 2,
+            "nanos": 2361367
+          },
+          "relative_timestamp": {
+            "secs": 2,
+            "nanos": 2093961
+          },
+          "cpu_usage": 12.345679,
+          "memory_usage": 969936896,
+          "virtual_memory_usage": 1261920256,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 2,
+            "nanos": 102430386
+          },
+          "relative_timestamp": {
+            "secs": 2,
+            "nanos": 102162980
+          },
+          "cpu_usage": 12.345679,
+          "memory_usage": 1027215360,
+          "virtual_memory_usage": 1319100416,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 2,
+            "nanos": 202498535
+          },
+          "relative_timestamp": {
+            "secs": 2,
+            "nanos": 202231129
+          },
+          "cpu_usage": 11.688312,
+          "memory_usage": 1086459904,
+          "virtual_memory_usage": 1379328000,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 2,
+            "nanos": 302567746
+          },
+          "relative_timestamp": {
+            "secs": 2,
+            "nanos": 302300340
+          },
+          "cpu_usage": 11.688312,
+          "memory_usage": 1145049088,
+          "virtual_memory_usage": 1437597696,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 2,
+            "nanos": 402638109
+          },
+          "relative_timestamp": {
+            "secs": 2,
+            "nanos": 402370703
+          },
+          "cpu_usage": 12.5,
+          "memory_usage": 1191276544,
+          "virtual_memory_usage": 1483763712,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 2,
+            "nanos": 502708081
+          },
+          "relative_timestamp": {
+            "secs": 2,
+            "nanos": 502440675
+          },
+          "cpu_usage": 13.75,
+          "memory_usage": 1219006464,
+          "virtual_memory_usage": 1511444480,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 2,
+            "nanos": 602777201
+          },
+          "relative_timestamp": {
+            "secs": 2,
+            "nanos": 602509795
+          },
+          "cpu_usage": 11.392405,
+          "memory_usage": 1219268608,
+          "virtual_memory_usage": 1511444480,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 2,
+            "nanos": 702846302
+          },
+          "relative_timestamp": {
+            "secs": 2,
+            "nanos": 702578896
+          },
+          "cpu_usage": 12.658228,
+          "memory_usage": 1219268608,
+          "virtual_memory_usage": 1511444480,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 2,
+            "nanos": 802920572
+          },
+          "relative_timestamp": {
+            "secs": 2,
+            "nanos": 802653166
+          },
+          "cpu_usage": 12.820514,
+          "memory_usage": 1219268608,
+          "virtual_memory_usage": 1511444480,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 2,
+            "nanos": 902993569
+          },
+          "relative_timestamp": {
+            "secs": 2,
+            "nanos": 902726163
+          },
+          "cpu_usage": 12.820514,
+          "memory_usage": 1219268608,
+          "virtual_memory_usage": 1511444480,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 3,
+            "nanos": 3065916
+          },
+          "relative_timestamp": {
+            "secs": 3,
+            "nanos": 2798510
+          },
+          "cpu_usage": 13.92405,
+          "memory_usage": 0,
+          "virtual_memory_usage": 0,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        }
+      ],
+      "asm_information": {
+        "bytecode_size": 23792,
+        "data_section": {
+          "size": 632,
+          "used": 632,
+          "value_pairs": [
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 15
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  97,
+                  114,
+                  114,
+                  97,
+                  121
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 14
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  98,
+                  50,
+                  53,
+                  54
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 14
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  98,
+                  111,
+                  111,
+                  108
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 12
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  97,
+                  114,
+                  114,
+                  97,
+                  121
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 11
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  98,
+                  50,
+                  53,
+                  54
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 11
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  98,
+                  111,
+                  111,
+                  108
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 11
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  101,
+                  110,
+                  117,
+                  109
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 16
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  115,
+                  116,
+                  114,
+                  95,
+                  97,
+                  114,
+                  114,
+                  97,
+                  121
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 13
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  115,
+                  116,
+                  114,
+                  117,
+                  99,
+                  116
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 12
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  116,
+                  117,
+                  112,
+                  108,
+                  101
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 10
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  117,
+                  49,
+                  54
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 10
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  117,
+                  51,
+                  50
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 10
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  117,
+                  54,
+                  52
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 14
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  101,
+                  110,
+                  117,
+                  109
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 9
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  117,
+                  56
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 13
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  115,
+                  116,
+                  114
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 16
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  115,
+                  116,
+                  114,
+                  117,
+                  99,
+                  116
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 15
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  116,
+                  117,
+                  112,
+                  108,
+                  101
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 13
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  117,
+                  49,
+                  54
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 13
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  117,
+                  51,
+                  50
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 13
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  117,
+                  54,
+                  52
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 12
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  117,
+                  56
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 32
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 14757395258967588866
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 4294967295
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 4
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  74,
+                  111,
+                  104,
+                  110
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 23308
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 23216
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 23132
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 23200
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 23124
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 23032
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 22940
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 22848
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 22756
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 22664
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 22572
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 22176
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 22084
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21992
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21900
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21808
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21716
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21624
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21532
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21440
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21348
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21272
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 11372
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 4440
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 1964
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 1832
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 1088
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 956
+              }
+            }
+          ]
+        }
+      },
+      "hyperfine": null
+    }
+  ],
+  "forc_version": "0.64.0",
+  "compiler_hash": "57CCD12A7A4922A1B4B2909D5B1DA989",
+  "benchmarks_datetime": "2024-10-24_11:56:20"
+}
