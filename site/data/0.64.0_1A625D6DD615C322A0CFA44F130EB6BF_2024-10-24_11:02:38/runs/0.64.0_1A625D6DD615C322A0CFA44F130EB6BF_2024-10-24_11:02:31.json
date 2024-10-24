@@ -1,0 +1,1557 @@
+{
+  "total_time": {
+    "secs": 1,
+    "nanos": 971115667
+  },
+  "system_specs": {
+    "cpus": [
+      {
+        "name": "1",
+        "vendor_id": "Apple",
+        "brand": "Apple M2 Pro",
+        "frequency": 3504
+      },
+      {
+        "name": "2",
+        "vendor_id": "Apple",
+        "brand": "Apple M2 Pro",
+        "frequency": 3504
+      },
+      {
+        "name": "3",
+        "vendor_id": "Apple",
+        "brand": "Apple M2 Pro",
+        "frequency": 3504
+      },
+      {
+        "name": "4",
+        "vendor_id": "Apple",
+        "brand": "Apple M2 Pro",
+        "frequency": 3504
+      },
+      {
+        "name": "5",
+        "vendor_id": "Apple",
+        "brand": "Apple M2 Pro",
+        "frequency": 3504
+      },
+      {
+        "name": "6",
+        "vendor_id": "Apple",
+        "brand": "Apple M2 Pro",
+        "frequency": 3504
+      },
+      {
+        "name": "7",
+        "vendor_id": "Apple",
+        "brand": "Apple M2 Pro",
+        "frequency": 3504
+      },
+      {
+        "name": "8",
+        "vendor_id": "Apple",
+        "brand": "Apple M2 Pro",
+        "frequency": 3504
+      },
+      {
+        "name": "9",
+        "vendor_id": "Apple",
+        "brand": "Apple M2 Pro",
+        "frequency": 3504
+      },
+      {
+        "name": "10",
+        "vendor_id": "Apple",
+        "brand": "Apple M2 Pro",
+        "frequency": 3504
+      }
+    ],
+    "physical_core_count": 10,
+    "total_memory": 17179869184,
+    "free_memory": 2699984896,
+    "available_memory": 6752681984,
+    "used_memory": 8929984512,
+    "total_swap": 2147483648,
+    "free_swap": 1677983744,
+    "used_swap": 469499904,
+    "uptime": 761718,
+    "boot_time": 1728995233,
+    "load_average": {
+      "one": 8.05859375,
+      "five": 3.7138671875,
+      "fifteen": 2.43115234375
+    },
+    "name": "Darwin",
+    "kernel_version": "24.0.0",
+    "os_version": "15.0.1",
+    "long_os_version": "MacOS 15.0.1 ",
+    "distribution_id": "macos",
+    "host_name": "Georgioss-Mac-mini.local"
+  },
+  "benchmarks": [
+    {
+      "name": "hashing",
+      "path": "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/hashing",
+      "start_time": {
+        "secs": 0,
+        "nanos": 10042
+      },
+      "end_time": {
+        "secs": 1,
+        "nanos": 826500375
+      },
+      "phases": [
+        {
+          "name": "core compile to ast",
+          "start_time": {
+            "secs": 0,
+            "nanos": 96539542
+          },
+          "end_time": {
+            "secs": 0,
+            "nanos": 396445708
+          }
+        },
+        {
+          "name": "core parse the program to a concrete syntax tree (CST)",
+          "start_time": {
+            "secs": 0,
+            "nanos": 96542083
+          },
+          "end_time": {
+            "secs": 0,
+            "nanos": 120128208
+          }
+        },
+        {
+          "name": "core parse the concrete syntax tree (CST) to a typed AST",
+          "start_time": {
+            "secs": 0,
+            "nanos": 120128917
+          },
+          "end_time": {
+            "secs": 0,
+            "nanos": 394634625
+          }
+        },
+        {
+          "name": "core compile ast to asm",
+          "start_time": {
+            "secs": 0,
+            "nanos": 396446292
+          },
+          "end_time": {
+            "secs": 0,
+            "nanos": 396526125
+          }
+        },
+        {
+          "name": "core generate JSON ABI program",
+          "start_time": {
+            "secs": 0,
+            "nanos": 396526708
+          },
+          "end_time": {
+            "secs": 0,
+            "nanos": 396569000
+          }
+        },
+        {
+          "name": "core compile asm to bytecode",
+          "start_time": {
+            "secs": 0,
+            "nanos": 396570542
+          },
+          "end_time": {
+            "secs": 0,
+            "nanos": 396574333
+          }
+        },
+        {
+          "name": "std compile to ast",
+          "start_time": {
+            "secs": 0,
+            "nanos": 398356250
+          },
+          "end_time": {
+            "secs": 1,
+            "nanos": 409546542
+          }
+        },
+        {
+          "name": "std parse the program to a concrete syntax tree (CST)",
+          "start_time": {
+            "secs": 0,
+            "nanos": 398356792
+          },
+          "end_time": {
+            "secs": 0,
+            "nanos": 431785375
+          }
+        },
+        {
+          "name": "std parse the concrete syntax tree (CST) to a typed AST",
+          "start_time": {
+            "secs": 0,
+            "nanos": 431786083
+          },
+          "end_time": {
+            "secs": 1,
+            "nanos": 406964208
+          }
+        },
+        {
+          "name": "std compile ast to asm",
+          "start_time": {
+            "secs": 1,
+            "nanos": 409547125
+          },
+          "end_time": {
+            "secs": 1,
+            "nanos": 410037583
+          }
+        },
+        {
+          "name": "std generate JSON ABI program",
+          "start_time": {
+            "secs": 1,
+            "nanos": 410038125
+          },
+          "end_time": {
+            "secs": 1,
+            "nanos": 410059875
+          }
+        },
+        {
+          "name": "std compile asm to bytecode",
+          "start_time": {
+            "secs": 1,
+            "nanos": 410060417
+          },
+          "end_time": {
+            "secs": 1,
+            "nanos": 410060875
+          }
+        },
+        {
+          "name": "hashing compile to ast",
+          "start_time": {
+            "secs": 1,
+            "nanos": 413545250
+          },
+          "end_time": {
+            "secs": 1,
+            "nanos": 456908167
+          }
+        },
+        {
+          "name": "hashing parse the program to a concrete syntax tree (CST)",
+          "start_time": {
+            "secs": 1,
+            "nanos": 413547042
+          },
+          "end_time": {
+            "secs": 1,
+            "nanos": 414186667
+          }
+        },
+        {
+          "name": "hashing parse the concrete syntax tree (CST) to a typed AST",
+          "start_time": {
+            "secs": 1,
+            "nanos": 414187208
+          },
+          "end_time": {
+            "secs": 1,
+            "nanos": 456862917
+          }
+        },
+        {
+          "name": "hashing compile ast to asm",
+          "start_time": {
+            "secs": 1,
+            "nanos": 456908792
+          },
+          "end_time": {
+            "secs": 1,
+            "nanos": 524848625
+          }
+        },
+        {
+          "name": "hashing generate JSON ABI program",
+          "start_time": {
+            "secs": 1,
+            "nanos": 524849167
+          },
+          "end_time": {
+            "secs": 1,
+            "nanos": 525011250
+          }
+        },
+        {
+          "name": "hashing compile asm to bytecode",
+          "start_time": {
+            "secs": 1,
+            "nanos": 525011750
+          },
+          "end_time": {
+            "secs": 1,
+            "nanos": 526444208
+          }
+        }
+      ],
+      "frames": [
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 1221250
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 282750
+          },
+          "cpu_usage": 0.0,
+          "memory_usage": 409600,
+          "virtual_memory_usage": 419917381632,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 0,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 104366875
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 103428375
+          },
+          "cpu_usage": 0.0,
+          "memory_usage": 26443776,
+          "virtual_memory_usage": 420324999168,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 8192,
+          "disk_read_bytes": 8192
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 209376458
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 208437958
+          },
+          "cpu_usage": 4.7617216,
+          "memory_usage": 148783104,
+          "virtual_memory_usage": 420576657408,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 8192,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 314385708
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 313447208
+          },
+          "cpu_usage": 4.7097836,
+          "memory_usage": 178716672,
+          "virtual_memory_usage": 420736057344,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 8192,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 416354667
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 415416167
+          },
+          "cpu_usage": 4.6228595,
+          "memory_usage": 244072448,
+          "virtual_memory_usage": 420783915008,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 16384,
+          "disk_read_bytes": 8192
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 521363542
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 520425042
+          },
+          "cpu_usage": 4.7466626,
+          "memory_usage": 328925184,
+          "virtual_memory_usage": 420875157504,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 16384,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 626380500
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 625442000
+          },
+          "cpu_usage": 4.576757,
+          "memory_usage": 411549696,
+          "virtual_memory_usage": 420959076352,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 16384,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 726904208
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 725965708
+          },
+          "cpu_usage": 4.324041,
+          "memory_usage": 532676608,
+          "virtual_memory_usage": 421073371136,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 16384,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 831920417
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 830981917
+          },
+          "cpu_usage": 4.6361,
+          "memory_usage": 659668992,
+          "virtual_memory_usage": 421337628672,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 16384,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 0,
+            "nanos": 936275917
+          },
+          "relative_timestamp": {
+            "secs": 0,
+            "nanos": 935337417
+          },
+          "cpu_usage": 4.5962076,
+          "memory_usage": 782712832,
+          "virtual_memory_usage": 421455069184,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 16384,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 37321083
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 36382583
+          },
+          "cpu_usage": 4.4253054,
+          "memory_usage": 898859008,
+          "virtual_memory_usage": 421569363968,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 16384,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 142333708
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 141395208
+          },
+          "cpu_usage": 4.582225,
+          "memory_usage": 1012285440,
+          "virtual_memory_usage": 421686804480,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 16384,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 247342833
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 246404333
+          },
+          "cpu_usage": 4.6910715,
+          "memory_usage": 1133101056,
+          "virtual_memory_usage": 421804277760,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 16384,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 349679708
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 348741208
+          },
+          "cpu_usage": 4.646108,
+          "memory_usage": 1225670656,
+          "virtual_memory_usage": 421891309568,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 16384,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 454689250
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 453750750
+          },
+          "cpu_usage": 4.724098,
+          "memory_usage": 1265664000,
+          "virtual_memory_usage": 422047547392,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 16384,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 559698292
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 558759792
+          },
+          "cpu_usage": 4.777772,
+          "memory_usage": 1268170752,
+          "virtual_memory_usage": 422049644544,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 16384,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 664707083
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 663768583
+          },
+          "cpu_usage": 4.66259,
+          "memory_usage": 1236434944,
+          "virtual_memory_usage": 422017138688,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 16384,
+          "disk_read_bytes": 0
+        },
+        {
+          "timestamp": {
+            "secs": 1,
+            "nanos": 766353000
+          },
+          "relative_timestamp": {
+            "secs": 1,
+            "nanos": 765414500
+          },
+          "cpu_usage": 4.5375195,
+          "memory_usage": 1223327744,
+          "virtual_memory_usage": 421999312896,
+          "disk_total_written_bytes": 0,
+          "disk_written_bytes": 0,
+          "disk_total_read_bytes": 16384,
+          "disk_read_bytes": 0
+        }
+      ],
+      "asm_information": {
+        "bytecode_size": 23792,
+        "data_section": {
+          "size": 632,
+          "used": 632,
+          "value_pairs": [
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 15
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  97,
+                  114,
+                  114,
+                  97,
+                  121
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 14
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  98,
+                  50,
+                  53,
+                  54
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 14
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  98,
+                  111,
+                  111,
+                  108
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 12
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  97,
+                  114,
+                  114,
+                  97,
+                  121
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 11
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  98,
+                  50,
+                  53,
+                  54
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 11
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  98,
+                  111,
+                  111,
+                  108
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 11
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  101,
+                  110,
+                  117,
+                  109
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 16
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  115,
+                  116,
+                  114,
+                  95,
+                  97,
+                  114,
+                  114,
+                  97,
+                  121
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 13
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  115,
+                  116,
+                  114,
+                  117,
+                  99,
+                  116
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 12
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  116,
+                  117,
+                  112,
+                  108,
+                  101
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 10
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  117,
+                  49,
+                  54
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 10
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  117,
+                  51,
+                  50
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 10
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  117,
+                  54,
+                  52
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 14
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  101,
+                  110,
+                  117,
+                  109
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 9
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  115,
+                  104,
+                  97,
+                  50,
+                  53,
+                  54,
+                  95,
+                  117,
+                  56
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 13
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  115,
+                  116,
+                  114
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 16
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  115,
+                  116,
+                  114,
+                  117,
+                  99,
+                  116
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 15
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  116,
+                  117,
+                  112,
+                  108,
+                  101
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 13
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  117,
+                  49,
+                  54
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 13
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  117,
+                  51,
+                  50
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 13
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  117,
+                  54,
+                  52
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 12
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  107,
+                  101,
+                  99,
+                  99,
+                  97,
+                  107,
+                  50,
+                  53,
+                  54,
+                  95,
+                  117,
+                  56
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 32
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 14757395258967588866
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 4294967295
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 4
+                }
+              },
+              "value": {
+                "ByteArray": [
+                  74,
+                  111,
+                  104,
+                  110
+                ]
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 23308
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 23216
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 23132
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 23200
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 23124
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 23032
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 22940
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 22848
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 22756
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 22664
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 22572
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 22176
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 22084
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21992
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21900
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21808
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21716
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21624
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21532
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21440
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21348
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 21272
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 11372
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 4440
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 1964
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 1832
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 1088
+              }
+            },
+            {
+              "name": null,
+              "padding": {
+                "Right": {
+                  "target_size": 8
+                }
+              },
+              "value": {
+                "Word": 956
+              }
+            }
+          ]
+        }
+      },
+      "hyperfine": null
+    }
+  ],
+  "forc_version": "0.64.0",
+  "compiler_hash": "1A625D6DD615C322A0CFA44F130EB6BF",
+  "benchmarks_datetime": "2024-10-24_11:02:31"
+}
