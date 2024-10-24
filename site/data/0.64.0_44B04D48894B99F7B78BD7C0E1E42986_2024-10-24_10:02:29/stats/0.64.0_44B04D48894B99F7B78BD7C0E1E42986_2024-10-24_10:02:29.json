@@ -1,0 +1,47 @@
+[
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/hashing",
+    {
+      "cpu_usage": [
+        260.5636353492737,
+        352.88074188128775
+      ],
+      "memory_usage": [
+        5952495616.0,
+        46.44234518110409
+      ],
+      "virtual_memory_usage": [
+        -7553560821760.0,
+        -99.64058047263296
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_read_bytes": [
+        0.0,
+        0.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        1135.0,
+        62.05576817933297
+      ]
+    }
+  ]
+]
