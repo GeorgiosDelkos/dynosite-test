@@ -1,0 +1,2207 @@
+[
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/generics_in_abi",
+    {
+      "cpu_usage": [
+        0.6087098121643066,
+        0.7654702959128059
+      ],
+      "memory_usage": [
+        34258944.0,
+        0.25672948005835394
+      ],
+      "virtual_memory_usage": [
+        1239433216.0,
+        0.01634516836756461
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        18382848.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        1179648.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        -17.0,
+        -0.9125067096081665
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/predicate_data_simple",
+    {
+      "cpu_usage": [
+        -0.17969036102294922,
+        -0.2562437161851818
+      ],
+      "memory_usage": [
+        67993600.0,
+        0.6335587683006878
+      ],
+      "virtual_memory_usage": [
+        -1469104128.0,
+        -0.021792132087867344
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        19.0,
+        1.1592434411226407
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/storage_namespace",
+    {
+      "cpu_usage": [
+        0.21647024154663086,
+        0.2547204224382824
+      ],
+      "memory_usage": [
+        345292800.0,
+        2.2467538005586363
+      ],
+      "virtual_memory_usage": [
+        798998528.0,
+        0.00997787023082708
+      ],
+      "disk_total_written_bytes": [
+        73728.0,
+        -100.0
+      ],
+      "disk_written_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "disk_total_read_bytes": [
+        442368.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        24576.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        29.0,
+        1.5159435441714635
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/storage_init",
+    {
+      "cpu_usage": [
+        -0.042534030973911285,
+        -0.053123187110898584
+      ],
+      "memory_usage": [
+        739786752.0,
+        5.38700333101086
+      ],
+      "virtual_memory_usage": [
+        421582323712.0,
+        5.558076023595078
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        139264.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        8192.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        24.0,
+        1.2772751463544552
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/script_data",
+    {
+      "cpu_usage": [
+        5.228976249694824,
+        7.4768618161211435
+      ],
+      "memory_usage": [
+        342851584.0,
+        3.0679730647036507
+      ],
+      "virtual_memory_usage": [
+        421762662400.0,
+        6.256478169139925
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        30.0,
+        1.799640071985607
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/result_option_expect",
+    {
+      "cpu_usage": [
+        5.0627923011779785,
+        7.233326578105931
+      ],
+      "memory_usage": [
+        694239232.0,
+        6.344270198564445
+      ],
+      "virtual_memory_usage": [
+        423194001408.0,
+        6.278931676213631
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        35.0,
+        2.0883054892601365
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/low_level_call",
+    {
+      "cpu_usage": [
+        0.04781818389892578,
+        0.0681863246771286
+      ],
+      "memory_usage": [
+        104333312.0,
+        0.9653531012423002
+      ],
+      "virtual_memory_usage": [
+        -609255424.0,
+        -0.009039203984940514
+      ],
+      "disk_total_written_bytes": [
+        12288.0,
+        100.0
+      ],
+      "disk_written_bytes": [
+        12288.0,
+        100.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        9.0,
+        0.5379557680812894
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/storage_vec_to_vec",
+    {
+      "cpu_usage": [
+        -0.040894508361816406,
+        -0.04531328625053277
+      ],
+      "memory_usage": [
+        -140115968.0,
+        -0.8153171318607662
+      ],
+      "virtual_memory_usage": [
+        -369868800.0,
+        -0.004388268525190142
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        77824.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        -1.0,
+        -0.048995590396856414
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/configurables_in_script",
+    {
+      "cpu_usage": [
+        5.0407514572143555,
+        7.179981818747038
+      ],
+      "memory_usage": [
+        351797248.0,
+        3.1961940997232716
+      ],
+      "virtual_memory_usage": [
+        419043737600.0,
+        6.215239470031804
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        17.0,
+        1.0161386730424482
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/messages",
+    {
+      "cpu_usage": [
+        0.1547551155090332,
+        0.20644813716759813
+      ],
+      "memory_usage": [
+        -519503872.0,
+        -4.248084490097227
+      ],
+      "virtual_memory_usage": [
+        1156546560.0,
+        0.01615048180187273
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        65536.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        -4.0,
+        -0.23296447291788525
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/option_field_order",
+    {
+      "cpu_usage": [
+        0.07349920272827148,
+        0.09793908746509317
+      ],
+      "memory_usage": [
+        23019520.0,
+        0.18979817901818308
+      ],
+      "virtual_memory_usage": [
+        -1326481408.0,
+        -0.018520602407619435
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        65536.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        -7.0,
+        -0.3984063745019881
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/storage_vec_nested",
+    {
+      "cpu_usage": [
+        -0.13330984115600586,
+        -0.1664946430657892
+      ],
+      "memory_usage": [
+        -197656576.0,
+        -1.4309131322811908
+      ],
+      "virtual_memory_usage": [
+        -338444288.0,
+        -0.004461757117056209
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        69632.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        24.0,
+        1.298701298701289
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/context",
+    {
+      "cpu_usage": [
+        4.9795708656311035,
+        7.108892972440955
+      ],
+      "memory_usage": [
+        429228032.0,
+        3.904705977040962
+      ],
+      "virtual_memory_usage": [
+        422019612672.0,
+        6.261217955554514
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        41.0,
+        2.4969549330085243
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/type_aliases",
+    {
+      "cpu_usage": [
+        4.569357395172119,
+        6.512380846117068
+      ],
+      "memory_usage": [
+        1127710720.0,
+        10.306561429831376
+      ],
+      "virtual_memory_usage": [
+        421763694592.0,
+        6.256009589782451
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        71.0,
+        4.318734793187346
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/call_frames",
+    {
+      "cpu_usage": [
+        5.001148700714111,
+        7.122797045817265
+      ],
+      "memory_usage": [
+        768507904.0,
+        6.84643184511819
+      ],
+      "virtual_memory_usage": [
+        422107693056.0,
+        6.2632077913524995
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        59.0,
+        3.5478051713770213
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/storage_bytes",
+    {
+      "cpu_usage": [
+        -0.014018535614013672,
+        -0.018664922634854975
+      ],
+      "memory_usage": [
+        190595072.0,
+        1.5971300261268766
+      ],
+      "virtual_memory_usage": [
+        2147467264.0,
+        0.02999161513419324
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        65536.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        41.0,
+        2.406103286384976
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/auth",
+    {
+      "cpu_usage": [
+        -0.10136604309082031,
+        -0.1445658648248127
+      ],
+      "memory_usage": [
+        121044992.0,
+        1.1278304529487997
+      ],
+      "virtual_memory_usage": [
+        1779417088.0,
+        0.026408509502743982
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        184320.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        12288.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        49.0,
+        3.083700440528631
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/abi_impl_methods_callable",
+    {
+      "cpu_usage": [
+        -0.041535377502441406,
+        -0.4103043452476527
+      ],
+      "memory_usage": [
+        37945344.0,
+        9.060323918316257
+      ],
+      "virtual_memory_usage": [
+        241188864.0,
+        0.014340145663965131
+      ],
+      "disk_total_written_bytes": [
+        12288.0,
+        -100.0
+      ],
+      "disk_written_bytes": [
+        12288.0,
+        -100.0
+      ],
+      "disk_total_read_bytes": [
+        16384.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/result_in_abi",
+    {
+      "cpu_usage": [
+        -0.15821027755737305,
+        -0.19732650892591153
+      ],
+      "memory_usage": [
+        251035648.0,
+        1.8836355321374896
+      ],
+      "virtual_memory_usage": [
+        -2155102208.0,
+        -0.028411601690507382
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        69632.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        23.0,
+        1.2728278915329412
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/vec_in_abi",
+    {
+      "cpu_usage": [
+        -0.1127157211303711,
+        -0.11265756674983152
+      ],
+      "memory_usage": [
+        -342163456.0,
+        -1.5599067222986491
+      ],
+      "virtual_memory_usage": [
+        -1797259264.0,
+        -0.019375426958262665
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        86016.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        6.0,
+        0.2653693056169857
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/asset_id",
+    {
+      "cpu_usage": [
+        0.05832862854003906,
+        0.0832126221746563
+      ],
+      "memory_usage": [
+        -260866048.0,
+        -2.383372377609291
+      ],
+      "virtual_memory_usage": [
+        719568896.0,
+        0.010676382123349981
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        29.0,
+        1.7813267813267828
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/script_bytecode",
+    {
+      "cpu_usage": [
+        -9.828707784414291,
+        -14.02890789553119
+      ],
+      "memory_usage": [
+        628850688.0,
+        5.780891819515446
+      ],
+      "virtual_memory_usage": [
+        422458966016.0,
+        6.267820214868024
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        30.0,
+        1.8072289156626482
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/ec_recover_and_match_predicate",
+    {
+      "cpu_usage": [
+        -0.19512033462524414,
+        -0.27796041989857656
+      ],
+      "memory_usage": [
+        -284721152.0,
+        -2.5848925539684444
+      ],
+      "virtual_memory_usage": [
+        760250368.0,
+        0.011282394549823493
+      ],
+      "disk_total_written_bytes": [
+        16384.0,
+        100.0
+      ],
+      "disk_written_bytes": [
+        16384.0,
+        100.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        40.0,
+        2.4434941967012946
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/storage_access",
+    {
+      "cpu_usage": [
+        5.1967878341674805,
+        6.11308474277827
+      ],
+      "memory_usage": [
+        887488512.0,
+        5.557248337226724
+      ],
+      "virtual_memory_usage": [
+        419921657856.0,
+        5.243182548658055
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        147456.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        8192.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        51.0,
+        2.560240963855435
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/hashing",
+    {
+      "cpu_usage": [
+        -0.07501935958862305,
+        -0.09971369334945734
+      ],
+      "memory_usage": [
+        -309821440.0,
+        -2.5181906314253126
+      ],
+      "virtual_memory_usage": [
+        2814328832.0,
+        0.039304835117121684
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        131072.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        8192.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        54.0,
+        3.1358885017421585
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/registers",
+    {
+      "cpu_usage": [
+        5.113897800445557,
+        7.313829140635761
+      ],
+      "memory_usage": [
+        531742720.0,
+        4.885623276370765
+      ],
+      "virtual_memory_usage": [
+        423072645120.0,
+        6.277434873591872
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        31.0,
+        1.875378100423461
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/storage",
+    {
+      "cpu_usage": [
+        0.15936660766601562,
+        0.1875063267031294
+      ],
+      "memory_usage": [
+        331481088.0,
+        2.1952934436332896
+      ],
+      "virtual_memory_usage": [
+        3931324416.0,
+        0.04911229047324639
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        221184.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        12288.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        37.0,
+        1.9260801665799079
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/run_external_proxy",
+    {
+      "cpu_usage": [
+        4.874793529510498,
+        6.939899247065966
+      ],
+      "memory_usage": [
+        379387904.0,
+        3.4961424063533144
+      ],
+      "virtual_memory_usage": [
+        422492553216.0,
+        6.269555299019373
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        31.0,
+        1.8913971934106257
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/storage_string",
+    {
+      "cpu_usage": [
+        -0.1886366456747055,
+        -0.2693681735870257
+      ],
+      "memory_usage": [
+        719044608.0,
+        6.598635978180468
+      ],
+      "virtual_memory_usage": [
+        422853214208.0,
+        6.274728618034445
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        39.0,
+        2.3579201934703633
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/superabi",
+    {
+      "cpu_usage": [
+        0.2990999221801758,
+        0.42691158889797975
+      ],
+      "memory_usage": [
+        -24592384.0,
+        -0.22623650079506774
+      ],
+      "virtual_memory_usage": [
+        1291812864.0,
+        0.01916602915623855
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        33.0,
+        2.028272894898592
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/superabi_supertrait",
+    {
+      "cpu_usage": [
+        -0.025128841400146484,
+        -0.03577049489202011
+      ],
+      "memory_usage": [
+        -185073664.0,
+        -1.705223908760857
+      ],
+      "virtual_memory_usage": [
+        991920128.0,
+        0.014720868843170365
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        28.0,
+        1.7188459177409356
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/configurables_in_contract",
+    {
+      "cpu_usage": [
+        4.897299766540527,
+        7.003646124856928
+      ],
+      "memory_usage": [
+        752631808.0,
+        6.901198549361666
+      ],
+      "virtual_memory_usage": [
+        421894815744.0,
+        6.260718328579458
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        43.0,
+        2.604482132041184
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/evm",
+    {
+      "cpu_usage": [
+        0.08908748626708984,
+        0.12687287482586385
+      ],
+      "memory_usage": [
+        -425459712.0,
+        -3.854231446835854
+      ],
+      "virtual_memory_usage": [
+        -621821952.0,
+        -0.009224074220767875
+      ],
+      "disk_total_written_bytes": [
+        12288.0,
+        100.0
+      ],
+      "disk_written_bytes": [
+        12288.0,
+        100.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        49.0,
+        3.009828009828013
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/storage_map",
+    {
+      "cpu_usage": [
+        -4.867084540426731,
+        -3.1321058801845822
+      ],
+      "memory_usage": [
+        417447936.0,
+        0.836909279152394
+      ],
+      "virtual_memory_usage": [
+        423565557760.0,
+        3.040990429289266
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        786432.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        24576.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        75.0,
+        2.2000586682311365
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/option_in_abi",
+    {
+      "cpu_usage": [
+        4.609148025512695,
+        5.7480622654236555
+      ],
+      "memory_usage": [
+        697761792.0,
+        4.8859284617837915
+      ],
+      "virtual_memory_usage": [
+        422897270784.0,
+        5.575906953636519
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        69632.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        33.0,
+        1.7618793379604796
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/asset_ops",
+    {
+      "cpu_usage": [
+        5.048969268798828,
+        6.716607708580284
+      ],
+      "memory_usage": [
+        660963328.0,
+        5.356450524996433
+      ],
+      "virtual_memory_usage": [
+        423593541632.0,
+        5.914954469161955
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        65536.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        42.0,
+        2.4068767908309354
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/storage_vec_of_storage_string",
+    {
+      "cpu_usage": [
+        0.12557458877563477,
+        0.1568059970795872
+      ],
+      "memory_usage": [
+        -360349696.0,
+        -2.5952541092899963
+      ],
+      "virtual_memory_usage": [
+        -2169782272.0,
+        -0.02860367997801916
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        69632.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        36.0,
+        1.9682886823400736
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/evm_ec_recover",
+    {
+      "cpu_usage": [
+        5.059925556182861,
+        7.215494695270678
+      ],
+      "memory_usage": [
+        791986176.0,
+        7.279355957931259
+      ],
+      "virtual_memory_usage": [
+        420462477312.0,
+        6.237506405306874
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        48.0,
+        2.9090909090909065
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/tx_fields",
+    {
+      "cpu_usage": [
+        -0.09385967254638672,
+        -0.1337914943320726
+      ],
+      "memory_usage": [
+        -130662400.0,
+        -1.2068430650030564
+      ],
+      "virtual_memory_usage": [
+        -1212170240.0,
+        -0.017983795716489226
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        61.0,
+        3.8029925187032347
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/storage_map_nested",
+    {
+      "cpu_usage": [
+        -0.03150177001953125,
+        -0.03139279626182656
+      ],
+      "memory_usage": [
+        246530048.0,
+        1.2827704499884192
+      ],
+      "virtual_memory_usage": [
+        2451537920.0,
+        0.026442116834047624
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        258048.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        12288.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        22.0,
+        0.9865470852017779
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/ec_recover",
+    {
+      "cpu_usage": [
+        4.768540382385254,
+        6.797250826873281
+      ],
+      "memory_usage": [
+        431489024.0,
+        3.956921005817591
+      ],
+      "virtual_memory_usage": [
+        423663779840.0,
+        6.286323318526783
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        27.0,
+        1.6314199395770572
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/logging",
+    {
+      "cpu_usage": [
+        4.907289505004883,
+        7.000407236284303
+      ],
+      "memory_usage": [
+        583548928.0,
+        5.363820229118559
+      ],
+      "virtual_memory_usage": [
+        423789608960.0,
+        6.288560214830639
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        48.0,
+        2.917933130699083
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/contract_bytecode",
+    {
+      "cpu_usage": [
+        4.662267208099365,
+        6.630297559320681
+      ],
+      "memory_usage": [
+        463880192.0,
+        4.288815270260656
+      ],
+      "virtual_memory_usage": [
+        421685084160.0,
+        6.2570559005951765
+      ],
+      "disk_total_written_bytes": [
+        12288.0,
+        100.0
+      ],
+      "disk_written_bytes": [
+        12288.0,
+        100.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        38.0,
+        2.32131948686623
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/string_slice/string_slice_predicate",
+    {
+      "cpu_usage": [
+        -0.1416769027709961,
+        -1.3912594771176003
+      ],
+      "memory_usage": [
+        29261824.0,
+        6.451146830413592
+      ],
+      "virtual_memory_usage": [
+        261095424.0,
+        0.015524699025576183
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        12288.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        -3.0,
+        -0.7228915662650621
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/private_struct_fields_in_storage_and_abi",
+    {
+      "cpu_usage": [
+        5.004755973815918,
+        7.1241399475291445
+      ],
+      "memory_usage": [
+        1144389632.0,
+        10.489877016374294
+      ],
+      "virtual_memory_usage": [
+        422699335680.0,
+        6.273079663897036
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        73728.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        8192.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        41.0,
+        2.4463007159904606
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/block",
+    {
+      "cpu_usage": [
+        5.113944053649902,
+        7.290900004407291
+      ],
+      "memory_usage": [
+        525205504.0,
+        4.813610733619143
+      ],
+      "virtual_memory_usage": [
+        422004981760.0,
+        6.261776336608676
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        20.0,
+        1.1926058437686322
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/parsing_logs",
+    {
+      "cpu_usage": [
+        -0.14992809295654297,
+        -0.19957805904495274
+      ],
+      "memory_usage": [
+        524156928.0,
+        4.593970915764274
+      ],
+      "virtual_memory_usage": [
+        1044381696.0,
+        0.014583589914280992
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        65536.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        32.0,
+        1.8946121965660154
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/predicate_data_struct",
+    {
+      "cpu_usage": [
+        -0.16546964645385742,
+        -0.23572361876277625
+      ],
+      "memory_usage": [
+        -213090304.0,
+        -1.9427540323423926
+      ],
+      "virtual_memory_usage": [
+        23035904.0,
+        0.00034179930672451064
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        29.0,
+        1.7769607843137294
+      ]
+    }
+  ],
+  [
+    "/Users/georgiosdelkos/Documents/GitHub/ourovoros.io/Fuel/sway/test/src/sdk-harness/test_projects/run_external_target",
+    {
+      "cpu_usage": [
+        -0.41345643997192383,
+        -0.5882821599298609
+      ],
+      "memory_usage": [
+        -28999680.0,
+        -0.26678483576905876
+      ],
+      "virtual_memory_usage": [
+        -782221312.0,
+        -0.011604556311013425
+      ],
+      "disk_total_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_written_bytes": [
+        0.0,
+        0.0
+      ],
+      "disk_total_read_bytes": [
+        61440.0,
+        -100.0
+      ],
+      "disk_read_bytes": [
+        4096.0,
+        -100.0
+      ],
+      "bytecode_size": [
+        0.0,
+        0.0
+      ],
+      "data_section_size": [
+        0.0,
+        0.0
+      ],
+      "time": [
+        11.0,
+        0.6590772917914904
+      ]
+    }
+  ]
+]
